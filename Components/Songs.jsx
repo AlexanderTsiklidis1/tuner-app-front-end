@@ -27,6 +27,7 @@ function Songs() {
             <th>Album</th>
             <th>Time</th>
             <th>Favorite</th>
+            <th>Song Details</th>
           </tr>
         </thead>
         <tbody>
