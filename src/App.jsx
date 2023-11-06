@@ -7,6 +7,7 @@ import Home from "../Pages/Home";
 import Index from "../Pages/Index";
 import New from "../Pages/New";
 import Show from "../Pages/Show";
+import ArtistIndex from "../Pages/ArtistIndex";
 
 
 import NavBar from "../Components/NavBar";
@@ -24,6 +25,7 @@ function App() {
             <Route path="/songs/:index" element={<Show />} />
             <Route path="/songs/:index/edit" element={<Edit />} />
             <Route path="*" element={<FourOFour />} />
+            <Route path ="/artists" element={<ArtistIndex/>} />
           </Routes>
         </main>
       </Router>

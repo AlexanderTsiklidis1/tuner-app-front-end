@@ -13,6 +13,9 @@ export default function NavBar() {
         <Link to="/songs/new" className="nav-link">
           New Song
         </Link>
+        <Link to ="/artists"  className="nav-link">
+          Artists
+        </Link>
       </div>
     </nav>
   );

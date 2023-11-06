@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
+import Artists from "./Artists"
 const API = import.meta.env.VITE_BASE_URL;
 
 function SongDetails() {
