@@ -7,7 +7,7 @@ function Songs() {
   const [songs, setSongs] = useState([]);
 
   useEffect(() => {
-    fetch(`${API}/songs`)
+    fetch(`${API}songs`)
       .then((response) => response.json())
       .then((responseJSON) => {
         console.log(responseJSON)
